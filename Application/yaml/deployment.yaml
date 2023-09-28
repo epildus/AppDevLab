@@ -19,6 +19,7 @@ spec:
         - resources: {}
           terminationMessagePath: /dev/termination-log
           name: hello-world
+          image: 'quay.io/eyal_pildus/labimage:v2'
           ports:
             - containerPort: 8080
               protocol: TCP
